@@ -6,8 +6,10 @@
 .border{
   background-color: #fff;
  margin: 0 auto;
-
  padding: 100px;
+ padding-left:50px;
+ padding-right: 50px;
+
  text-align: center;
 /* border-radius */
  -webkit-border-radius: 20px;
@@ -15,9 +17,9 @@
  border-radius: 20px;
  height:315px;
 /* box-shadow */
- -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
- -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
- box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+ -webkit-box-shadow: rgba(0,0,0,0.7) 0px 0 10px;
+ -moz-box-shadow: rgba(0,0,0,0.7) 0 0 10px;
+ box-shadow: rgba(0,0,0,0.7) 0 0 10px;
 
 }
 
@@ -34,10 +36,12 @@ background-color: #fff;
  -moz-border-radius: 5px;
  border-radius: 5px;
 /* box-shadow */
- -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
- -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
- box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+ -webkit-box-shadow: rgba(0,0,0,0.7) 0px 0 10px;
+ -moz-box-shadow: rgba(0,0,0,0.7) 0 0 10px;
+ box-shadow: rgba(0,0,0,0.7) 0 0 10px;
  max-width:200px;
+ min-width: 100px;
+ min-height: 50px;
 }
 
 .borderWithOutMargin {
@@ -54,7 +58,16 @@ background-color: #fff;
  -moz-border-radius: 20px;
  border-radius: 20px;
 /* box-shadow */
- -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
- -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
- box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+ -webkit-box-shadow: rgba(0,0,0,0.7) 0px 0 10px;
+ -moz-box-shadow: rgba(0,0,0,0.7) 0 0 10px;
+ box-shadow: rgba(0,0,0,0.7) 0 0 10px;
+}
+
+.hideUntilNewAccount {
+  /*background-color: blue;*/
+  display: none;
+}
+
+.hideAfterNewAccountIsMade {
+
 }

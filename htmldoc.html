@@ -17,21 +17,22 @@
     </div>
 
     <div class="row">
-
+<!-- HIDE TOP BOX AFTER USER LOGS IN -->
+<div class="hideAfterNewAccountIsMade">
       <div class="col-xs-3 ">
       </div>
       <div class="col-sm-6 border ">
         <form id="sign-in">
           <div class="form-group">
 
-            <input type="name" class="form-control" id="name" placeholder="Enter Name">
+            <input type="name" class="form-control" id="name" placeholder="Enter Name" autofocus>
           </div>
           <div class="form-group">
 
             <div class="input-group">
               <div class="input-group-addon">$</div>
               <input type="text" class="form-control" id="InitialDeposit" placeholder="Initial Deposit (in dollars)">
-              <div class="input-group-addon">.00</div>
+              <!-- <div class="input-group-addon">.00</div> -->
             </div>
           </div>
 
@@ -41,7 +42,10 @@
       <div class="col-xs-3 ">
       </div>
     </div>
+  </div>
   </br>
+  <!--HIDE BOTTOM TWO BOXES UNTIL AFTER USER LOGS IN-->
+  <div class="hideUntilNewAccount">
     <div class="row">
       <div class="col-sm-6 border" >
         <form id="deposit" class="form-inline">
@@ -49,7 +53,7 @@
             <div class="input-group">
               <div class="input-group-addon">$</div>
               <input type="text" class="form-control" id="DepositAmount" placeholder="Deposit">
-              <div class="input-group-addon">.00</div>
+              <!-- <div class="input-group-addon">.00</div> -->
             </div>
           </div>
           <br/>
@@ -58,7 +62,7 @@
               <div class="input-group">
                 <div class="input-group-addon">$</div>
                 <input type="text" class="form-control" id="WithdrawalAmount" placeholder="Withdrawal">
-                <div class="input-group-addon">.00</div>
+                <!-- <div class="input-group-addon">.00</div> -->
               </div>
           </div>
           <br/>
@@ -73,12 +77,13 @@
           <div class="borderWithOutMargin">
             <h3 class="page-header margin"><span class="Account-holder"></span>, your bank account balance is:</h3>
             <br/>
-            <h2><span id="FinalBalance" class="border-size" ></span></h2>
+            <h2 class="border-size">$<span id="FinalBalance"></span></h2>
           </div>
         </div>
       </div>
 
   </div>
+</div>
 </div>
 </div>
 
