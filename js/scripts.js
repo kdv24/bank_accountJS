@@ -7,3 +7,7 @@ var BankAccount = {
         this.balance = this.balance + amount;
     }
 };
+
+$(document).ready(function(){
+
+});

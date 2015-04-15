@@ -1,0 +1,60 @@
+.center{
+
+  text-align:center;
+
+}
+.border{
+  background-color: #fff;
+ margin: 0 auto;
+
+ padding: 100px;
+ text-align: center;
+/* border-radius */
+ -webkit-border-radius: 20px;
+ -moz-border-radius: 20px;
+ border-radius: 20px;
+ height:315px;
+/* box-shadow */
+ -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+ -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+ box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+
+}
+
+.border-size{
+
+background-color: #fff;
+ margin: 0 auto;
+
+ padding: 5px;
+
+ text-align: center;
+/* border-radius */
+ -webkit-border-radius: 5px;
+ -moz-border-radius: 5px;
+ border-radius: 5px;
+/* box-shadow */
+ -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+ -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+ box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+ max-width:200px;
+}
+
+.borderWithOutMargin {
+  background-color: #fff;
+ margin: 0 auto;
+ height:315px;
+ padding: 100px;
+ padding-left:50px;
+ padding-right: 50px;
+ padding-top:10px;
+ text-align: center;
+/* border-radius */
+ -webkit-border-radius: 20px;
+ -moz-border-radius: 20px;
+ border-radius: 20px;
+/* box-shadow */
+ -webkit-box-shadow: rgba(0,0,0,0.8) 0px 0 10px;
+ -moz-box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+ box-shadow: rgba(0,0,0,0.8) 0 0 10px;
+}
