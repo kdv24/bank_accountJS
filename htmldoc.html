@@ -7,6 +7,17 @@
   <script src="js/jquery-1.11.2.js"></script>
   <script src="js/background.js"></script>
   <script src="js/scripts.js"></script>
+<!-- ADDED SCRIPT TO PLAY WITH ANIMATE -->
+  <script>
+$(document).ready(function(){
+    $(".btn1").click(function(){
+        $("h1").animate({fontSize: "3em"});
+    });
+    $(".btn2").click(function(){
+        $("h1").animate({fontSize: "1em"});
+    });
+});
+</script>
   <title>Bank Account</title>
 </head>
 
@@ -17,7 +28,9 @@
 
     </div>
 
-    <canvas id="world"></canvas>
+    <button class="btn1">Animate</button>
+    <button class="btn2">Reset</button>
+    <!-- <canvas id="world"></canvas> -->
 
 
     <div class="row">
