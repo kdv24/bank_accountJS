@@ -5,7 +5,7 @@
  
 ####Description
  
-This web app was designed to practice angular routing and nested states. It allows the user to add students to a course roster
+This web app was designed to practice creating prototypes for JavaScript objects and creating instances of those objects using the prototypes.
  
 ####Set Up
  
